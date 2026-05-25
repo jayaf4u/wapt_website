@@ -1,0 +1,146 @@
+/* ==============================
+   GLOBAL STYLES
+   ============================== */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f4f7;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==============================
+   HEADER
+   ============================== */
+.header {
+    background: #004b87;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    height: 45px;
+    margin-right: 15px;
+}
+
+/* ==============================
+   NAVBAR
+   ============================== */
+.navbar {
+    background: #003865;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* ==============================
+   TICKER
+   ============================== */
+.ticker {
+    background: #e9ecef;
+    padding: 6px;
+    font-size: 14px;
+}
+
+/* ==============================
+   LAYOUT
+   ============================== */
+.container {
+    padding: 25px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    margin-bottom: 25px;
+}
+
+/* ==============================
+   STATUS BADGES (FIXED)
+   ============================== */
+.badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 8px;
+}
+
+/* COLORS */
+.badge-green {
+    background: #28a745;
+}
+
+.badge-blue {
+    background: #007bff;
+}
+
+.badge-orange {
+    background: #fd7e14;
+}
+
+.badge-red {
+    background: #dc3545;
+}
+
+/* ==============================
+   GRID / TILES
+   ============================== */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.tile {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.tile img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.tile:hover {
+    background: #e2e6ea;
+}
+
+/* ==============================
+   FORMS
+   ============================== */
+input, button {
+    padding: 10px;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ==============================
+   ADMIN CONSOLE (if used)
+   ============================== */
+.admin-box {
+    width: 45%;
+    margin: 60px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+}
