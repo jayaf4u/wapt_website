@@ -1,0 +1,28 @@
+Create Database in phpMyAdmin
+Step 1 — Start XAMPP Services
+
+Open XAMPP Control Panel and start:
+
+Apache
+MySQL
+Step 2 — Open phpMyAdmin
+
+Open browser:
+
+http://localhost/phpmyadmin
+Step 3 — Create Database
+Click New (left side)
+In Database name enter:
+aai_demo
+Click Create
+
+Done.
+
+Step 4 — Create Tables (if needed)
+
+If project has .sql file:
+
+Open database aai_demo
+Click Import
+Choose .sql file
+Click Go
